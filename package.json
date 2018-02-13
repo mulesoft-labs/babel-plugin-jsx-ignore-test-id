@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-jsx-ignore-test-id",
+  "version": "1.0.0",
+  "description": "Babel plugin to remove testId and data-test-id attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mulesoft-labs/babel-plugin-jsx-ignore-test-id.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "jsx"
+  ],
+  "author": "Igor Zoriy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mulesoft-labs/babel-plugin-jsx-ignore-test-id/issues"
+  },
+  "homepage": "https://github.com/mulesoft-labs/babel-plugin-jsx-ignore-test-id#readme"
+}
