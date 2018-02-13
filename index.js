@@ -1,18 +1,12 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-exports.default = JsxDisplayIgnoreTestId;
-function JsxDisplayIgnoreTestId() {
+export default function JsxDisplayIgnoreTestId() {
   return {
     visitor: {
       JSXAttribute: function (path) {
-        if (path.node.name.name === 'data-test-id' || path.node.name.name === 'testId') {
-          path.remove();
+        let { node: { name: { name } } } = path
+        if (name === 'data-test-id' || name === 'testId') {
+          path.remove()
         }
       }
     }
-  };
-};
+  }
+}
